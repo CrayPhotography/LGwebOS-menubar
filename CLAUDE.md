@@ -25,8 +25,8 @@ Ask the user for these:
 
 ## 4. Check compatibility
 
-- The only tested model is **LG 50UN7310PSC** (see the README's "Tested models" table). Any other model is unverified.
-- If the user's TV is a different model, say so before continuing. Ask whether they want to try anyway. If they do, report the result and suggest an issue with the model number and exact webOS version.
+- The app has been tested with webOS 5.0 on one LG TV. Other models and versions are unverified.
+- If the user's TV has a different model or version, explain the compatibility status before continuing. If they try it, report the result and suggest an issue with the model number and exact webOS version.
 
 ## 5. Check the TV is reachable
 

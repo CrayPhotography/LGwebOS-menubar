@@ -4,13 +4,26 @@ A native macOS menu bar remote for LG webOS TVs. Launch apps, switch HDMI inputs
 
 The app is called **LGwebOS-menubar**. This is a community project, independent of LG.
 
-> **Compatibility:** the app has been tested on an **LG 50UN7310PSC**. Other models and webOS versions are not verified. If you try another TV, say so in your issue or pull request, including the model number and the exact webOS version.
+## Preview
 
-## Tested models
+An earlier recording shows the TV overview with the PlayStation input active, the app launcher, and a short tour. The current interface is in English.
 
-| Model | webOS version | Status |
-| --- | --- | --- |
-| LG 50UN7310PSC | 5.0 | Works: discovery, pairing, remote control |
+<p align="center">
+  <img src="docs/media/overview-ps5.png" alt="TV overview with PlayStation 5 on HDMI 2" width="320">
+  <img src="docs/media/apps.png" alt="App launcher with streaming app tiles" width="320">
+</p>
+
+<p align="center">
+  <img src="docs/media/demo.gif" alt="Short demonstration of the TV remote tabs" width="360">
+</p>
+
+> **Compatibility:** the app has been tested with webOS 5.0 on one LG TV. Other models and webOS versions are not verified. If you try another TV, say so in your issue or pull request, including the model number and exact webOS version.
+
+## Tested versions
+
+| webOS version | Status |
+| --- | --- |
+| 5.0 | Works: discovery, pairing, remote control |
 
 ## Quick start with Claude
 
