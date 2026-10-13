@@ -6,16 +6,15 @@ The app is called **LGwebOS-menubar**. This is a community project, independent 
 
 ## Preview
 
-An earlier recording shows the TV overview with the PlayStation input active, the app launcher, and a short tour. The current interface is in English.
-
 <p align="center">
-  <img src="docs/media/overview-ps5.png" alt="TV overview with PlayStation 5 on HDMI 2" width="320">
-  <img src="docs/media/apps.png" alt="App launcher with streaming app tiles" width="320">
+  <img src="docs/media/demo.gif" alt="Demo of the TV overview, remote controls, and app launcher" width="440">
 </p>
 
-<p align="center">
-  <img src="docs/media/demo.gif" alt="Short demonstration of the TV remote tabs" width="360">
-</p>
+| PlayStation 5 on HDMI 2 | App launcher |
+| :---: | :---: |
+| <img src="docs/media/overview-ps5.png" alt="TV overview with PlayStation 5 on HDMI 2" width="300"> | <img src="docs/media/apps.png" alt="App launcher with streaming app tiles" width="300"> |
+
+<sub>Captured from an earlier build with a Portuguese interface. The current app is in English.</sub>
 
 > **Compatibility:** the app has been tested with webOS 5.0 on one LG TV. Other models and webOS versions are not verified. If you try another TV, say so in your issue or pull request, including the model number and exact webOS version.
 
