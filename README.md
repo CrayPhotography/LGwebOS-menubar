@@ -10,7 +10,7 @@ The app is called **LGwebOS-menubar**. This is a community project, independent 
 
 | Model | webOS version | Status |
 | --- | --- | --- |
-| LG 50UN7310PSC | _to confirm_ | Works: discovery, pairing, remote control |
+| LG 50UN7310PSC | 5.0 | Works: discovery, pairing, remote control |
 
 ## Quick start with Claude
 
