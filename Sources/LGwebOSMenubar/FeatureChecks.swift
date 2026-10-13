@@ -76,7 +76,7 @@ enum FeatureChecks {
         try equal(TVCertificatePolicy.decide(expected: nil, received: "new-pin", canApprove: true), .approvalRequired)
     }
     static func testFreshConfigurationHasNoDeviceIdentityAndLoadsCustomParameters() throws {
-        let suite = "LGRemote.FeatureChecks." + UUID().uuidString
+        let suite = "LGwebOSMenubar.FeatureChecks." + UUID().uuidString
         guard let defaults = UserDefaults(suiteName: suite) else { throw RemoteError.message("Could not create isolated test preferences") }
         defer { defaults.removePersistentDomain(forName: suite) }
         let fresh = TVConfiguration(defaults: defaults)

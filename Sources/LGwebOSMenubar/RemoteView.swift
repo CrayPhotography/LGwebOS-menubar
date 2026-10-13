@@ -160,7 +160,7 @@ struct RemoteView: View {
                     else { store.connect() }
                 }
                 Divider()
-                Button("Quit LG TV Remote") { NSApplication.shared.terminate(nil) }
+                Button("Quit LGwebOS-menubar") { NSApplication.shared.terminate(nil) }
             } label: { Image(systemName: "ellipsis").frame(width: 24, height: 30).foregroundStyle(mutedInk) }
                 .menuStyle(.borderlessButton).menuIndicator(.hidden).fixedSize()
             Menu {
@@ -541,7 +541,7 @@ struct RemoteView: View {
     }
     private var logsPanel: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("LG TV Remote connections and actions saved on this Mac. Internal TV logs require developer mode.").font(.system(size: 11)).foregroundStyle(mutedInk)
+            Text("LGwebOS-menubar connections and actions saved on this Mac. Internal TV logs require developer mode.").font(.system(size: 11)).foregroundStyle(mutedInk)
             PanelCard {
                 LazyVStack(alignment: .leading, spacing: 13) {
                     ForEach(store.events.filter { $0.title != "Read" }) { event in

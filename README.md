@@ -1,8 +1,8 @@
-# LG TV Remote
+# LGwebOS-menubar
 
 A native macOS menu bar remote for LG webOS TVs. Launch apps, switch HDMI inputs, navigate with a touchpad, and keep your TV controls a click away.
 
-The app is called **LG TV Remote**. This is a community project, independent of LG.
+The app is called **LGwebOS-menubar**. This is a community project, independent of LG.
 
 ## Features
 
@@ -23,7 +23,7 @@ Requires macOS 14 or later and Xcode Command Line Tools with Swift 5.9 or later.
 ```sh
 xcode-select --install
 bash scripts/build.sh
-open "dist/LG TV Remote.app"
+open "dist/LGwebOS-menubar.app"
 ```
 
 The script builds in a temporary directory, removes debug symbols, and creates a locally signed app bundle. It does not connect to a TV. Locally built apps are not notarized releases.
@@ -67,7 +67,7 @@ Personal investigation records, captures, local configuration, and generated bui
 
 ```sh
 bash scripts/build.sh
-"dist/LG TV Remote.app/Contents/MacOS/LGRemote" --self-check
+"dist/LGwebOS-menubar.app/Contents/MacOS/LGwebOSMenubar" --self-check
 python3 scripts/privacy-check.py
 ```
 
@@ -82,7 +82,7 @@ Diagnostics require an explicit TV address and do not switch inputs or launch ap
 ```sh
 mkdir -p .local
 export TV_IP="your-tv-local-ipv4-address"
-"dist/LG TV Remote.app/Contents/MacOS/LGRemote" \
+"dist/LGwebOS-menubar.app/Contents/MacOS/LGwebOSMenubar" \
   --diagnose --host "$TV_IP" --report .local/diagnostics.json
 ```
 

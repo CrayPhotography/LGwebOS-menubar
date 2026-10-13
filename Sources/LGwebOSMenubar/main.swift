@@ -45,7 +45,7 @@ private struct PanelShell: View {
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApplication.shared.setActivationPolicy(.accessory)
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
-        statusItem.button?.image = NSImage(systemSymbolName: "tv", accessibilityDescription: "LG TV Remote")
+        statusItem.button?.image = NSImage(systemSymbolName: "tv", accessibilityDescription: "LGwebOS-menubar")
         statusItem.button?.image?.isTemplate = true
         statusItem.button?.target = self; statusItem.button?.action = #selector(toggle)
         panel.isOpaque = false; panel.backgroundColor = .clear; panel.hasShadow = true
@@ -95,7 +95,7 @@ private struct PanelShell: View {
 let app = NSApplication.shared
 if CommandLine.arguments.contains("--help") {
     print("""
-    LG TV Remote — a macOS menu bar remote for LG webOS TVs
+    LGwebOS-menubar — a macOS menu bar remote for LG webOS TVs
 
     Run the app normally to discover or configure your TV in Settings.
     --background   Start without showing the panel.
